@@ -38,29 +38,6 @@ class AppBarWithSearch extends StatelessWidget implements PreferredSizeWidget {
 
         Container(), // Required for App Bar elevation
 
-        // Positioned(
-        //   // Take AppBar size only
-        //   top: 108.0,
-        //   left: 8.0,
-        //   right: 8.0,
-        //   child: Container(
-        //     padding: const EdgeInsets.symmetric(horizontal: 12.0),
-        //     decoration: BoxDecoration(
-        //       borderRadius: BorderRadius.circular(Styles.radius * 8.0),
-        //       color: Colors.white,
-        //       boxShadow: [
-        //         BoxShadow(
-        //           color: Colors.grey.withOpacity(0.3),
-        //           spreadRadius: 4,
-        //           blurRadius: 7,
-        //           offset: const Offset(0, 3), // changes position of shadow
-        //         ),
-        //       ],
-        //     ),
-        //     child: const PaginationBar(),
-        //   ),
-        // ),
-
         Positioned(
           // Take AppBar size only
           top: 100.0,

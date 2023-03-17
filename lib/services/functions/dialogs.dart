@@ -24,7 +24,6 @@ class DialogsServices {
 
         return SlideTransition(
           position: offsetAnimation,
-          // transform: Matrix4.translationValues(0.0, curvedValue * 200, 0.0),
           child: Opacity(
             opacity: animation1.value,
             child: ErrorDialog(message: message),
