@@ -9,8 +9,7 @@ Create a flutter application that shows a list of products and their details.
 ### Exam Details
 - The application must have two pages, a list, and complete details.
 - The list endpoint must have a limit of 10 and only returns the id, title, price, stock, thumbnail, and discount percentage.
-- The list page must have a pagination. Any pagination works as long as it fits the mobile.
-design.
+- The list page must have a pagination. Any pagination works as long as it fits the mobile design.
 - The application must only use state management and not use any storing data providers such as SQLite, Shared Preferences, or Caches.
 - The application must be unit tested.
 - Must be done in just a week. 
