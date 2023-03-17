@@ -20,8 +20,7 @@ void main() {
   // Run application
   runApp(
     MultiProvider(
-
-      // Change Notifier Providers (BLoC)
+      // Change Notifier Providers
       providers: [
         ChangeNotifierProvider<ProductsServices>(create: (_)=> ProductsServices()),
       ],

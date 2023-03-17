@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 
 class NavigationServices {
 
-  // Stack screen on top of current with slide transition from right to left
   Route createRoute(Widget newRoute) {
     return PageRouteBuilder(
       transitionDuration: const Duration(milliseconds: 600),
